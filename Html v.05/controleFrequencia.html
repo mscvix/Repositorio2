@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/reset.css">
+    <link rel="stylesheet" href="stylesheet/style-geral.css">
+    <link rel="stylesheet" href="stylesheet/style-controleFrequencia.css">
+    <link rel="icon" type="image/x-icon" href="Imagens-geral/fav-icon-branco.png">
+    <title>Frequência</title>
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <a href="home.html"><img src="Imagens-geral/Logo Original Vertical_1.jpg" alt="logo.Owl-Cursos"></a>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+    <main>
+        <div class="texto-em-cima">
+            Selecione a Matéria: <select id="seletor">
+                <option value="" selected> Todas </option>
+                <option value="Python Pandas: tratando e analisando dados">Python Pandas: tratando e analisando dados</option>
+                <option value="JavaScript: interfaces e Herança em Orientação a Objetos">JavaScript: interfaces e Herança em Orientação a Objetos</option>
+                <option value="React Native: criando um app">React Native: criando um app</option>
+                <option value="Bootstrap 4: criando uma landing page responsiva">Bootstrap 4: criando uma landing page responsiva"</option>
+                <option value="Kotlin e Spring: segurança e infraestrutura">Kotlin e Spring: segurança e infraestrutura</option>
+                <option value="Reconhecimento de imagens: Twitter e Computer Vision API">Reconhecimento de imagens: Twitter e Computer Vision API</option>
+                <option value="Lógica de programação I: crie programas com Javascript e HTML">Lógica de programação I: crie programas com Javascript e HTML</option>
+                <option value="HTML5 e CSS3: crie uma página da Web">HTML5 e CSS3: crie uma página da Web</option>
+                <option value="UX: metodologias práticas para designers">UX: metodologias práticas para designers</option>
+                <option value="Modelagem de banco de dados relacional: modelagem lógica e física">Modelagem de banco de dados relacional: modelagem lógica e física</option>
+              </select>
+            <input type="checkbox" id="checkbox" value="aprovados">
+                <label for="aprovados">Apenas Aprovados</label>
+            <button id="btEnviar">Buscar</button>
+            <input type="text" id="inPesquisaNome" placeholder="Filtrar por nome" oninput="pesquisaNomes()">
+            <input type="text" id="inBuscaCurso" placeholder="Filtrar por matéria"oninput="pesquisaCursos()">
+        </div>
+            <table id="outTabela">
+                <tr>
+                    <th>Aluno</th>
+                    <th>Curso</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Participação</th>
+                    <th>Média Ponderada</th>
+                    <th>% Faltas</th>
+                    <th>Resultado</th>
+                </tr>
+            </table>
+            <link rel="stylesheet" href="/Stylesheet/tabela.css">
+            <script src="/JavaScript/dados.js"></script>
+            <script src="/JavaScript/codigos-tabelas.js"></script>
+
+    </main>
+    <footer>
+        <img src="Imagens-geral/Logo Branca Vertical_1.png">
+        <p class="copyright">&copy; Copyright Owl Cursos</p>
+    </footer>
+</body>
+
+</html>

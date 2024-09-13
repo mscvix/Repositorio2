@@ -1,0 +1,76 @@
+/* Ul / Li */
+
+.cursos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 40px 15px;
+    box-sizing: border-box;
+    border: 2px solid #1d2c50;
+    border-radius: 10px;
+    height: 480px;
+}
+
+.cursos li:hover {
+    border-color: #d6d84e;
+}
+
+.cursos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 250px 0;
+}
+
+.cursos h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: #1d2c50;
+    margin-bottom: 1em;
+}
+
+
+.cursos-descricao {
+    font-size: 18px;
+}
+
+.cursos-preco {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #d6d84e;
+    padding: 20px 0px 0px 0px;
+}
+
+.cursos-preco-2{
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+    color: #1d2c50;
+}
+
+/* BOTÕES */
+.btComprar {
+    margin-top: 15%;
+    width: 50%;
+    padding: 15px 0;
+    background-color:#d6d84e;
+    color: #1d2c50 ;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.controlefrequencia .btComprar {
+    margin-top: 40%;
+}
+
+.btComprar:hover {
+    background-color:#1d2c50;
+    color: #d6d84e ;
+    transform: scale(1.2) rotate(4deg);
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/reset.css">
+    <link rel="stylesheet" href="stylesheet/style-geral.css">
+    <link rel="stylesheet" href="stylesheet/contato.css">
+    <link rel="icon" type="image/x-icon" href="Imagens-geral/fav-icon-branco.png">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <a href="home.html"><img src="Imagens-geral/Logo Original Vertical_1.jpg" alt="logo.Owl-Cursos"></a>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="cursos.html">Cursos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <form action="">
+
+            <fieldset>
+
+                <label for="nomeSobrenome" class="input-block">Nome e Sobrenome</label>
+                <input type="text" class="input-block" id="nomeSobrenome" required>
+                <label for="email" class="input-block">Email</label>
+                <input type="email" class="input-block" id="email" required placeholder="Seu e-mail@dominio.com">
+                <label for="telefone" class="input-block">Telefone</label>
+                <input type="tel" id="telefone" class="input-block" placeholder="(XX) XXXXX-XXXX">
+                <label for="mensagem" class="input-block">Mensagem</label>
+                <textarea name="" id="mensagem" cols="30" rows="10" class="input-block" required></textarea>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>Como prefere nosso contato?</legend>
+                <label for="radio-email"><input type="radio" class="input-inline" name="contato" value="email"
+                        id="radio-email">E-mail</label>
+
+                <label for="radio-telefone"><input type="radio" class="input-inline" name="contato" value="telefone"
+                        id="radio-telefone">Telefone</label>
+
+                <label for="radio-whatsapp"><input type="radio" class="input-inline" name="contato" value="whatsapp"
+                        id="radio-whatsapp" checked>Whatsapp</label>
+
+            </fieldset>
+
+
+
+            <fieldset>
+
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select name="" id="">
+                    <option value="">Manhã</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noite</option>
+                </select>
+
+            </fieldset>
+
+            <label class="input-checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?
+            </label>
+
+            <a href="home.html"><input type="submit" value="Enviar Formulário" class="enviar"></a>
+        </form>
+    </main>
+
+    </main>
+    <footer>
+        <img src="Imagens-geral/Logo Branca Vertical_1.png">
+        <p class="copyright">&copy; Copyright Owl Cursos</p>
+    </footer>
+</body>
+
+</html>

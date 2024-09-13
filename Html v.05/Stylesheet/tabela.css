@@ -1,0 +1,22 @@
+/* TABELA EXCLUSIVAMENTE PARA A ESTILIZAÇÃO DA TABELA DO INDEX */
+th{
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+}
+tr{
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+}
+td{
+    border: 1px solid black;
+    padding: 1px;
+    text-align: center;
+}
+tr:nth-child(even){ 
+        background-color: #FFFFFF;
+}
+tr:nth-child(odd){ 
+    background-color: rgb(183, 175, 175);
+}

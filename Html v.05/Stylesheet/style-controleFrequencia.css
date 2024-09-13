@@ -1,0 +1,22 @@
+main{
+    margin-bottom: 600px;
+    text-align: center;
+}
+
+table{
+        text-align: center;
+        padding-top: 50px;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+.texto-em-cima{
+    margin-bottom: 50px;
+}
+#btEnviar{
+    padding: 7.5px 2px 7.5px 2px;
+}
+
+input{
+    border-radius: 5px;
+}

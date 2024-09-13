@@ -1,0 +1,72 @@
+main {
+    width: 940px;
+    margin: 0 auto;
+    
+}
+
+form {
+    margin-left: 300px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 100px;
+    
+}
+
+
+.input-block {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 22px;
+    width: 50%;
+}
+
+.input-inline {
+    margin-bottom: 20px;
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 0 0 10px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: #d6d84e;
+    color: #1d2b50;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 3em;
+    
+}
+
+.enviar:hover {
+    color: #d6d84e;
+    background-color: #1d2b50;
+    transform: scale(1.2)
+}
+
+legend {
+    margin-bottom: 10px;
+    font-size: 22px;
+    color: #1d2b50;
+   
+}
+
+select {
+    font-size: 20px;
+    width: 280px;
+}
+
+.input-checkbox {
+    margin-right: 20px 0;
+
+}
